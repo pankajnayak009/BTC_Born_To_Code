@@ -11,8 +11,10 @@ import {
 } from "react-icons/fc";
 
 import { Link } from "react-router-dom";
-import services_banner_1 from "../images/services_banner.png";
-import services_banner_2 from "../images/sevices_on_mobile.jpg";
+// import services_banner_1 from "../images/services_banner.png";
+// import services_banner_2 from "../images/sevices_on_mobile.jpg";
+// public/images/services_banner.png
+// public/images/sevices_on_mobile.jpg
 
 export default function Services() {
   const services = [
@@ -57,18 +59,16 @@ export default function Services() {
       /> */}
       <div class="container_about_us about_img_hide">
         <img
-          src={services_banner_1}
+          src="/images/services_banner.png"
           alt="Image"
           class="image_about_us image_services_us bannerImage_1"
         />
-        {/* 
-        <div class="text-overlay">Website Designing</div> */}
       </div>
-      <div class="container_about_us about_img_hide_on_desktop ">
+      <div class="container_about_us about_img_hide_on_desktop">
         <img
-          src={services_banner_2}
+          src="/images/sevices_on_mobile.jpg"
           alt="Image"
-          class="image_about_us  bannerImage_1"
+          class="image_about_us bannerImage_1"
         />
         <div class="text-overlay">Services</div>
       </div>
