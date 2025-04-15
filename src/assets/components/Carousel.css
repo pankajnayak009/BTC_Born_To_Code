@@ -1,0 +1,360 @@
+.slick-prev:before,
+.slick-next:before {
+  /* font-family: 'slick'; 
+    font-size: 32px;
+    line-height: 1;
+    opacity: 0.8; 
+    color: black;
+    -webkit-font-smoothing: antialiased; */
+}
+
+.slick-slide .ImageParent {
+  display: flex !important;
+  /* height: 400px; */
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Carousel container */
+/* .carousel-container {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 1rem;
+    
+} */
+
+.carousel-container {
+  height: auto;
+  width: 100%;
+  /* max-width: 1200px;  */
+  /* Set a max width to prevent stretching on large screens */
+  margin: auto;
+  /* overflow: hidden; */
+  /* padding: 1rem; */
+  box-sizing: border-box; /* Ensures padding doesn't break layout */
+  background-color: rgb(0, 0, 0);
+  /* border: 5px solid red; */
+}
+
+/* Parent wrapper */
+.ImageParent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  /* padding: 10px; */
+  /* border: 2px solid black;  */
+}
+
+/* Text content */
+.carousal {
+  /* flex: 1;
+    text-align: left;
+    padding: 20px; */
+
+  /* flex: 1;
+    text-align: left;
+    padding: 57px; */
+  /* background-color: black; */
+  /* margin: 67px; */
+  /* padding-left: 84px; */
+  /* margin-left: 10px; */
+
+  flex: 1;
+  /* text-align: left; */
+  padding: 121px;
+  /* background-color: black; */
+  /* margin: 67px; */
+  /* padding-left: 154px; */
+  margin-left: 10px;
+  height: 26rem;
+  /* width: 100%; */
+  align-items: center;
+}
+
+.carousal h1 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  gap: 10px;
+}
+
+.carousal p {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  text-align: left;
+}
+
+.carousalbtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #0078d4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+.carousalbtn:hover {
+  background-color: #005a9e;
+}
+
+/* Image styling */
+.image-section {
+  width: 100%;
+  width: 100%;
+  margin-top: 60px;
+  /* height: auto; */
+  /* border-radius: 10px; */
+  /* border: 2px solid black; */
+  object-fit: contain;
+}
+
+/* Responsive Design */
+/* @media (max-width: 1024px) {
+    .ImageParent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carousal {
+        padding: 10px;
+    }
+} */
+
+@media (max-width: 768px) {
+  .carousal {
+    /* flex: 1;
+        text-align: left;
+        padding: 20px; */
+
+    /* flex: 1;
+        text-align: left;
+        padding: 57px; */
+    /* background-color: black; */
+    /* margin: 67px; */
+    /* padding-left: 84px; */
+    /* margin-left: 10px; */
+
+    flex: 1;
+    /* text-align: left; */
+    /* padding: 151px; */
+    /* background-color: black; */
+    /* margin: 67px; */
+    /* padding-left: 154px; */
+    margin-left: 10px;
+    /* height: 300px; */
+    /* width: 100%; */
+    align-items: center;
+    margin-bottom: 64px;
+  }
+
+  .carousalbtn p {
+    /* font-size: 1rem; */
+    margin-top: 3px;
+  }
+
+  .carousalbtn {
+    padding: 3px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0078d4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+
+  .ImageParent {
+    flex-direction: row;
+    text-align: center;
+    display: none;
+    height: 300px;
+  }
+
+  .image-section {
+    max-width: 200px;
+    height: 420px;
+    /* display: none; */
+  }
+
+  .carousal h1 {
+    font-size: 1.8rem;
+  }
+
+  .carousal p {
+    /* font-size: 1rem;  */
+    color: rgb(255, 255, 255);
+    /* margin-top: 68px;  */
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* @media (max-width: 480px) {
+    
+    .carousal h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousal p {
+        font-size: 0.9rem;
+    }
+
+    .carousel-image {
+        max-width: 100%;
+    }
+
+    .carousalbtn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+} */
+
+/* General Styling for Mobile */
+
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  /* .carousel-container.img{
+     
+    display: none;    
+
+    } */
+
+  .ImageParent img {
+    display: none;
+  }
+
+  .ImageParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .carousal {
+    position: relative;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .carousal h1 {
+    font-size: 21px;
+    margin-top: 183px;
+  }
+
+  .carousal p {
+    font-size: 11px;
+    /* line-height: 1.5; */
+    text-align: center;
+    margin-top: 24px;
+  }
+  .carousalbtn {
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* .carousel-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  } */
+
+  /* Slick Custom Dots */
+  .slick-dots {
+    bottom: 10px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: #0078d4;
+  }
+
+  /* Arrows Styling for Better Visibility */
+  .slick-prev,
+  .slick-next {
+    font-size: 18px;
+    z-index: 2;
+  }
+  .slick-prev {
+    left: 5px;
+  }
+  .slick-next {
+    right: 5px;
+  }
+
+  /* button */
+
+  .talk-button {
+    background: linear-gradient(135deg, #689bd1, #2d80d8); /* Blue gradient */
+    color: white;
+    /* font-size: 18px; */
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    /* margin-top: 65px; */
+  }
+}
+
+.talk-button {
+  background: linear-gradient(135deg, #689bd1, #2d80d8); /* Blue gradient */
+  color: white;
+  /* font-size: 18px; */
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+
+.talk-button:hover {
+  background: linear-gradient(135deg, #007bff, #4e5c6b); /* Red gradient */
+  /* transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); */
+}
+.talk-button:active {
+  /* background: linear-gradient(135deg, #ff0000, #b30000);  */
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 991.98px) {
+  .image-section {
+    max-width: 751px;
+    margin-top: 62px;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-section {
+    /* max-width: 881px; */
+    /* max-width: 794px; */
+    max-width: 677px;
+    margin-top: 62px;
+  }
+}

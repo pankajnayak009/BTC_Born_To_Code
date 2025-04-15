@@ -1,0 +1,62 @@
+/* FAQ.module.css */
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin-top: 116px;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.faqItem {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.question {
+  padding: 20px;
+  font-size: 20px;
+  background-color: #303030;
+  cursor: pointer;
+  position: relative;
+}
+
+.question::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  font-size: 24px;
+}
+
+.question.open::after {
+  content: "-";
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #303030;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 20px;
+}
+
+.answer.open {
+  max-height: 200px;
+  padding: 20px;
+}
+
+/* Add this to FAQ.module.css */
+.banner {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}

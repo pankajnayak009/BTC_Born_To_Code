@@ -1,0 +1,39 @@
+.clients-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.clients-container h2 {
+  color: #0078d7;
+  margin-bottom: 20px;
+  margin-top: 31px;
+}
+
+.clients-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.client-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.client-card:hover {
+  transform: scale(1.05);
+}
+
+.client-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}

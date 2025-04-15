@@ -1,0 +1,209 @@
+.banner {
+  width: 100%;
+  height: 250px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.bannerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* margin-top: 7px; */
+}
+.bannerImage {
+  margin-top: 70px;
+}
+
+/* DigitalMarketing.css */
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  /* text-align: center; */
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.content1 {
+  background: #f9fafb;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+}
+
+h3 {
+  /* color: #0056b3; */
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 15px;
+  /* text-align: justify; */
+  text-align: center;
+}
+
+/* paragraph for websitedesigning container */
+.webdesigning_paragraph_container {
+}
+
+ul {
+  list-style-type: disc;
+  /* margin-left: 25px; */
+  /* margin-left: -70px; */
+}
+
+li {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Main container */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f9f9f9; /* Light background */
+}
+
+/* Wrapper for image and content */
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Space between image and text */
+  max-width: 1000px;
+}
+
+/* Image styling */
+.content-wrapper img {
+  max-width: 400px;
+  height: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+
+/* Text content */
+.processSection {
+  flex: 1; /* Takes up remaining space */
+  max-width: 550px;
+}
+
+/* Headings */
+.processSection h3 {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* List styles */
+.processSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.processSection li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  /* line-height: 1.5; */
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.processSection li strong {
+  color: #0073e6; /* Highlighted color for key points */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 45px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.image {
+  width: 50%;
+}
+.processSection {
+  width: 50%;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* .seo_2_image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+} */
+
+.content {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 7px;
+    padding: 12px;
+    text-align: justify;
+    margin-bottom: 0px;
+  }
+
+  .image {
+    width: 100%;
+  }
+  .processSection {
+    width: 100%;
+  }
+  .processSection h3,
+  li {
+    /* text-align: left; */
+  }
+
+  .bannerImage_1 {
+    /* height: 12vh;
+    margin-top: 77px; */
+    /* margin-left: 1px; */
+    /* margin-right: 0px; */
+    /* width: 100%; */
+    margin-top: 81px;
+  }
+}

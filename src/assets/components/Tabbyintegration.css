@@ -1,0 +1,227 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500&display=swap");
+
+/* General Layout */
+.tabby-integration-page {
+  padding: 100px 20px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background-color: #f4f7fa;
+}
+
+/* Header Section */
+.tabby-header {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: #fff;
+  padding: 60px 30px;
+  border-radius: 18px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 123, 255, 0.2);
+}
+
+.tabby-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.tabby-header p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Content Section */
+.tabby-content {
+  background: #fff;
+  padding: 40px 35px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.tabby-content:hover {
+  transform: translateY(-4px);
+}
+
+.tabby-content h2 {
+  margin-top: 46px;
+  font-size: 1.6rem;
+  color: #007bff;
+  border-left: 4px solid #007bff;
+  padding-left: 12px;
+  margin-bottom: 17px;
+}
+
+.tabby-content p {
+  margin: 12px 0 24px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: left;
+}
+
+.tabby-content ul {
+  padding-left: 25px;
+  margin-bottom: 25px;
+}
+
+.tabby-content ul li {
+  margin-bottom: 12px;
+  list-style-type: disc;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+/* Video Section */
+.video-wrapper {
+  margin: 50px 0;
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tabby-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .tabby-header p {
+    font-size: 1rem;
+  }
+
+  .tabby-content {
+    padding: 25px;
+  }
+
+  .tabby-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .tabby-content p,
+  .tabby-content ul li {
+    font-size: 1rem;
+  }
+}
+
+/* Base Layout */
+.tabby-integration-page {
+  padding: 100px 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  background-color: #f9f9f9;
+}
+
+.tabby-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.tabby-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.tabby-header p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.tabby-content {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.tabby-content h2 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #007bff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.tabby-content p {
+  margin: 10px 0 20px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.tabby-content ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.tabby-content ul li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+  font-size: 1.05rem;
+}
+
+/* Video Section */
+.video-wrapper {
+  margin: 40px 0;
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tabby-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .tabby-content {
+    padding: 20px;
+  }
+
+  .tabby-content h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* banner image  */
+.tabby_image_1 {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 61px;
+  filter: brightness(1) !important;
+}

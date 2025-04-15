@@ -1,0 +1,122 @@
+.banner-seo {
+  position: relative;
+  width: 100%;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+}
+
+.banner-text {
+  /* position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 76px 42px;
+  border-radius: 5px; */
+
+  position: absolute;
+  top: 57%;
+  left: 3%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  background: rgb(0 0 0 / 18%);
+  padding: 46px 38px;
+  border-radius: 5px;
+  width: 46%;
+}
+.banner-text p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.container_seo_1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 40px;
+  /* margin-bottom: 100px; */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .banner-text {
+    font-size: 2.5rem;
+    padding: 60px 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bannerImage {
+    /* height: 50vh; */
+    margin-top: 213px;
+  }
+
+  .banner-text {
+    font-size: 2rem;
+    padding: 40px 25px;
+  }
+
+  .bannerImage_1 {
+    /* height: 12vh;
+    margin-top: 77px; */
+    /* margin-left: 1px; */
+    /* margin-right: 0px; */
+    /* width: 100%; */
+    margin-top: 81px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-text {
+    font-size: 1.5rem;
+    padding: 20px 15px;
+    left: 2%;
+    right: 3%;
+    width: 94%;
+  }
+
+  .banner-text p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .container_seo_2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* max-width: 1200px; */
+    margin: auto;
+    /* padding: 20px; */
+    /* margin-top: 40px; */
+    /* margin-bottom: 100px; */
+    /* padding-left: 74px; */
+  }
+}
+
+.container_seo_2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* max-width: 1200px; */
+  margin: auto;
+  /* padding: 20px; */
+  margin-top: 40px;
+  margin-bottom: 100px;
+  /* padding-left: 74px; */
+}

@@ -1,0 +1,195 @@
+.webDevCard {
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  margin: 10px;
+}
+/* .webDevCard .cardInner {
+  padding: 10px;
+  border-radius: 15px;
+} */
+.webDevCard .imageSection {
+  background: linear-gradient(200deg, #f33609, #f6a31a);
+  border-bottom-right-radius: 50%;
+}
+.webDevCard .imageSection img {
+  max-width: 70%;
+}
+
+.webDevCard .textSection {
+  text-align: center;
+}
+.webDevCard .textSection p {
+  font-weight: bold;
+}
+.webDevCard button {
+  background: linear-gradient(200deg, #f33609, #f6a31a);
+  font-size: 18px;
+  /* background: rgb(244, 87, 14); */
+  font-size: 18px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 18px;
+  margin-bottom: 27px;
+}
+
+.webDevCard button:active {
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Red gradient */
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.webDevCard ul {
+  list-style-type: none;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.webdev_containe_h2 {
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .webDevCard {
+    width: 100% !important;
+  }
+}
+
+/* for 2nd card and button colors */
+
+.webDevCard2 .imageSection {
+  background: linear-gradient(200deg, rgb(142, 0, 255), rgb(208, 1, 253));
+  border-bottom-right-radius: 50%;
+}
+.webDevCard3 .imageSection {
+  background: linear-gradient(200deg, rgb(79, 65, 166), rgb(151, 170, 239));
+  border-bottom-right-radius: 50%;
+}
+.webDevCard4 .imageSection {
+  background: linear-gradient(200deg, rgb(23, 168, 139), rgb(49, 226, 128));
+  border-bottom-right-radius: 50%;
+}
+
+/* cards button */
+.webDevCard2 button {
+  background: linear-gradient(200deg, rgb(142, 0, 255), rgb(208, 1, 253));
+}
+.webDevCard3 button {
+  background: linear-gradient(200deg, rgb(79, 65, 166), rgb(151, 170, 239));
+}
+.webDevCard4 button {
+  background: linear-gradient(200deg, rgb(50, 226, 128), rgb(51, 225, 128));
+}
+
+/* why choose us section css  */
+/* body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+} */
+
+.whychoosewrapper {
+  max-width: 1400px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.whychoosetitle {
+  text-align: center;
+  color: #1d1d1d;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+.featuresgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.featurecard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.featurecard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.featuretitle {
+  margin-top: 0;
+  color: #4b0082;
+  padding-bottom: 18px;
+  margin-top: 0;
+  color: #4b0082;
+  padding-bottom: 14px;
+  font-size: 19px;
+}
+
+.featuredescription {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.whychoosefooter {
+  text-align: center;
+  margin-top: 60px;
+  font-style: italic;
+  color: #555;
+}
+
+/* our process sectrion in css  */
+
+.processcontainer {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.processtitle {
+  text-align: center;
+  font-size: 36px;
+  color: #1e1e1e;
+  margin-bottom: 50px;
+}
+
+.processsteps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.processcard {
+  background: #f4f4f4;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+}
+
+.processcard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.processstep {
+  font-size: 22px;
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+.processdesc {
+  font-size: 15px;
+  line-height: 1.6;
+}
