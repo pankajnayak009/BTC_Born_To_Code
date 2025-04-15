@@ -52,11 +52,6 @@ export default function Services() {
 
   return (
     <>
-      {/* <img
-        src="src\assets\images\services_banner.png"
-        alt="Banner"
-        className="bannerImage"
-      /> */}
       <div class="container_about_us about_img_hide">
         <img
           src="/images/services_banner.png"
